@@ -28,6 +28,7 @@ LinkSheet 使用 **产品变体 (Flavors)** 和 **构建类型 (Build Types)**�
 * **类型 (Types):** `debug`, `release`, `nightly`, `benchmark`。
 
 使用命令行构建示例：
+
 ```bash
 ./gradlew assembleFossDebug
 ```

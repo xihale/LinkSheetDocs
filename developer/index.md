@@ -28,6 +28,7 @@ LinkSheet uses **product flavors** and **build types**:
 * **Types:** `debug`, `release`, `nightly`, `benchmark`.
 
 To build via CLI:
+
 ```bash
 ./gradlew assembleFossDebug
 ```
