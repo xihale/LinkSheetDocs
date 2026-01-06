@@ -153,6 +153,13 @@ Built APKs are placed in the following directories:
 * `app/pro/nightly/` - Pro nightly builds
 * `app/build/outputs/apk/` - Other build variants
 
+### Troubleshooting
+
+#### App crashes after self-building
+If the application crashes immediately after a self-build, it is likely due to the cloud data collection (analytics) failing to initialize (e.g., missing API keys or connectivity issues).
+
+You can refer to the commits in [this branch](https://github.com/xihale/LinkSheet/tree/self-build) to temporarily remove or disable the cloud data collection features to ensure the app runs correctly in your local environment.
+
 ### License
 
 LinkSheet is licensed under **LPL** (excluding strings).
